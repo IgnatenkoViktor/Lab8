@@ -1,0 +1,19 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.left-section img {
+    height: 50%;
+    width: 50%;
+}
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  
+}
